@@ -1,0 +1,289 @@
+*{padding:0; margin:0;}
+body{font-family:arial; font-size:14px;}
+
+/*start coding for Bannar and logo*/
+.header{
+	width:888px;
+	margin:0 auto;
+		
+}
+.fix{overflow:hidden;}
+.logo{
+	width:278px;
+	float:left;
+}
+.bannar{
+	width:598px;
+	float:right;
+	margin-left:11px;
+}
+.bjqs-prev a, .bjqs-next a{
+	width:18px;
+	height:18px;
+	text-indent:99999px;
+	display:block;
+	
+	
+}
+.bjqs-prev a{
+	background:url(images/prev.png) no-repeat scroll 0 0; 
+	margin-left:10px;
+	
+}
+.bjqs-next a{
+	background:url(images/next.png) no-repeat scroll 0 0; 
+	margin-right:10px;
+}
+.active-marker{
+	display:block;
+}
+.left_line{
+	float:left;
+	margin-right:11px;
+}
+/*start coding for menu*/
+.head_menu_aria{
+	width:888px;
+	margin:0 auto;
+}
+.head_menu{
+	width:100%;
+	background:url('menu-bar.jpg');
+	float:left;
+}
+
+.menu{
+	width:873px;
+	margin:0 auto;
+	text-align:center;
+}
+.menu ul{}
+.menu ul li{display:inline-block;}
+.menu ul li a{
+	text-decoration:none;
+	color:#000;
+	padding:10px;
+	display: block;
+	font-weight:bold;
+}
+a:hover{background:white; color:white; border-radius:px;}
+
+.menu_downline{
+	width:888px;
+	margin:0 auto;
+	margin-top:1px;
+}
+.menu_downline h2{
+	margin-top:13px;
+	margin-bottom:10px;
+	margin-left:16px;
+}
+
+/*start coding for advertisement*/
+.add{border: 2px solid black;
+	height: 118px;
+	margin: 0 auto;
+	width: 885px;
+}
+.add a{
+	text-decoration:none;
+	color:#000;
+	
+}
+.add1, .add2, .add3, .add4, .add5, .add6{
+	width:123px;
+	float:left;
+	margin-top:15px;
+	margin-left:20px;
+	font-size:11px;
+	text-align:center;
+}
+.text{
+	width:888px;
+	margin:0 auto;
+}
+.align{
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:16px;
+	font-weight:bold;
+}
+
+/*start coding for page_body*/
+.align_page_body{
+	width:100%;
+	float:left;
+	margin:0 auto;
+}
+.page_body{
+	width:888px;
+	margin:0 auto;
+}
+.body_left{
+	width:190px;
+	float:left;
+	margin-top:5px;
+}
+.body_center{
+	width:491px;
+	float:left;
+	margin-top:5px;
+}
+.form_place{
+	width:458px;
+	height:181px;
+	background:#E3F2FB;
+	margin-left:17px;
+	margin-bottom:2px;
+	text-align:left;
+	font-size:9px;
+	padding-top:20px;
+	padding-left:20px;
+}
+.look_radio{
+	width:361px;
+	height:31px;
+}
+.looking{
+	margin-top:5px;
+	margin-right:87px;
+	float:left;
+	font-weight:bolder;
+}
+.radio_button{
+	float:lfet;	
+}
+.property_selector1{
+	width:386px;
+	height:31px;
+}
+.property_type{
+	margin-right:62px;
+	margin-top:5px;
+	float:left;
+	font-weight:bolder;
+}
+.selector1{
+	float:left;
+}
+.location_selector2{
+	width:362px;
+	height:31px;
+}
+.location{
+	float:left;
+	margin-top:5px;
+	margin-right:85px;
+	font-weight:bolder;
+}
+.selector2{
+	float:left;
+}
+.bedroom_price{
+	width:458px;
+	height:36px;
+	margin:0 auto;
+	float:left;
+}
+.number_bedroom{
+	width:220px;
+	float:left;
+	font-weight:bolder;
+	margin-top:;
+	margin-bottom:;
+	margin-right:5px;
+}
+.price{
+	
+	width:;
+	float:left;
+}
+.date_month{
+	width:400px;
+	height:36px;
+	margin:0 auto;
+	float:left;
+}
+.date{
+	float:left;
+	font-weight:bolder;
+	margin-top:5px;
+	margin-right:48px;
+	
+}
+.date_month_search{
+	float:left;
+	font-size:8px;
+	font-family:tahoma;
+}
+.last_listing{
+	width:478px;
+	height:322px;
+	float:left;
+	margin-left:17px;
+	margin-bottom:3px;
+}
+.body_down_add{
+	width:478px;
+	float:left;
+	margin-left:17px;
+	margin-top:7px;
+}
+.body_right{
+	float:left;
+	width:190px;
+	margin-top:5px;
+	margin-left:16px;
+}
+
+/*start coding for footer*/
+.align_footer{
+	width:100%;
+	float:left;
+}	
+.footer{
+	width:888px;
+	margin:0 auto;
+	height:1px;
+	border:2px solid black;
+	border-bottom:#fff;
+	border-right:#fff;
+	border-left:#fff;
+	float:center;
+	margin-top:25px;
+	margin-bottom:5px;
+	background:;
+	text-align:center;
+}
+.footer_down_text{
+	width:100%;
+	float:left;
+}
+.text_footer{
+	float:center;
+	width:888px;
+	margin:0 auto;
+}
+.footer_left{
+	float:left;
+	font-size:12px;
+}
+.footer_right{
+	margin-bottom:50px;
+	font-family:verdana;
+	font-size:12px;
+	float:right;
+}
+.footer_right li{
+	display:inline;
+}
+.footer_right li a{
+	text-decoration:none;
+	display:inline-block;
+	padding-left:10px;
+	color:#000;
+}
+.footer_right li a:hover {
+	color:#0B2F51;
+}
